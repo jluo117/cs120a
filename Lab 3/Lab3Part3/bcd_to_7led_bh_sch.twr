@@ -1,0 +1,89 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml bcd_to_7led_bh_sch.twx bcd_to_7led_bh_sch.ncd -o
+bcd_to_7led_bh_sch.twr bcd_to_7led_bh_sch.pcf -ucf bcd_to_7led_bh.ucf
+
+Design file:              bcd_to_7led_bh_sch.ncd
+Physical constraint file: bcd_to_7led_bh_sch.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+enable0        |an0            |    5.747|
+enable1        |an1            |    6.307|
+enable2        |an2            |    6.011|
+enable3        |an3            |    6.286|
+sw0            |a              |    6.480|
+sw0            |d              |    7.017|
+sw0            |f              |    6.523|
+sw0            |g              |    6.697|
+sw1            |a              |    9.200|
+sw1            |b              |    9.009|
+sw1            |c              |    6.820|
+sw1            |d              |   10.073|
+sw1            |e              |    6.751|
+sw1            |f              |    9.189|
+sw1            |g              |    9.728|
+sw2            |a              |    7.566|
+sw2            |b              |    7.783|
+sw2            |c              |    7.032|
+sw2            |d              |    8.990|
+sw2            |e              |    6.992|
+sw2            |f              |    7.985|
+sw2            |g              |    8.645|
+sw3            |a              |    8.659|
+sw3            |b              |    7.958|
+sw3            |c              |    8.005|
+sw3            |d              |    8.781|
+sw3            |e              |    7.970|
+sw3            |f              |    8.319|
+sw3            |g              |    8.565|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Jan 28 19:40:45 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4485 MB
+
+
+

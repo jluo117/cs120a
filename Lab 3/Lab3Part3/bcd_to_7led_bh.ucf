@@ -1,0 +1,24 @@
+# Enables
+NET "enable0" LOC = "g3";
+NET "enable1" LOC = "f3";
+NET "enable2" LOC = "e2";
+NET "enable3" LOC = "n3";
+
+# Inputs
+NET "sw0" LOC = "p11";
+NET "sw1" LOC = "l3";
+NET "sw2" LOC = "k3";
+NET "sw3" LOC = "b4";
+# Outputs
+NET "a" LOC = "l14"; 
+NET "b" LOC = "h12";
+NET "c" LOC = "n14";
+NET "d" LOC = "n11";
+NET "e" LOC = "p12";
+NET "f" LOC = "l13";
+NET "g" LOC = "m12";
+// ANx
+NET "an0" LOC = "k14";
+NET "an1" LOC = "m13";
+NET "an2" LOC = "j12";
+NET "an3" LOC = "f12";

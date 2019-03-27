@@ -1,0 +1,151 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : bcd_to_7led_bh_sch.vf
+// /___/   /\     Timestamp : 01/28/2019 19:40:21
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Xilinx/Projects/Lab3Part3/bcd_to_7led_bh_sch.vf -w C:/Xilinx/Projects/Lab3Part3/bcd_to_7led_bh_sch.sch
+//Design Name: bcd_to_7led_bh_sch
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module bcd_to_7led_bh_sch(enable0, 
+                          enable1, 
+                          enable2, 
+                          enable3, 
+                          sw0, 
+                          sw1, 
+                          sw2, 
+                          sw3, 
+                          a, 
+                          an0, 
+                          an1, 
+                          an2, 
+                          an3, 
+                          b, 
+                          c, 
+                          d, 
+                          e, 
+                          f, 
+                          g);
+
+    input enable0;
+    input enable1;
+    input enable2;
+    input enable3;
+    input sw0;
+    input sw1;
+    input sw2;
+    input sw3;
+   output a;
+   output an0;
+   output an1;
+   output an2;
+   output an3;
+   output b;
+   output c;
+   output d;
+   output e;
+   output f;
+   output g;
+   
+   wire XLXN_28;
+   wire XLXN_30;
+   wire XLXN_32;
+   wire XLXN_34;
+   wire XLXN_36;
+   wire XLXN_37;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_41;
+   wire XLXN_42;
+   wire XLXN_44;
+   wire XLXN_45;
+   
+   OR4  XLXI_1 (.I0(sw2), 
+               .I1(sw0), 
+               .I2(XLXN_36), 
+               .I3(XLXN_34), 
+               .O(a));
+   OR3  XLXI_2 (.I0(XLXN_39), 
+               .I1(XLXN_28), 
+               .I2(XLXN_37), 
+               .O(b));
+   OR3  XLXI_3 (.I0(sw3), 
+               .I1(XLXN_30), 
+               .I2(sw1), 
+               .O(c));
+   OR5  XLXI_4 (.I0(XLXN_42), 
+               .I1(XLXN_41), 
+               .I2(XLXN_40), 
+               .I3(XLXN_36), 
+               .I4(sw0), 
+               .O(d));
+   OR2  XLXI_5 (.I0(XLXN_36), 
+               .I1(XLXN_40), 
+               .O(e));
+   OR4  XLXI_6 (.I0(sw0), 
+               .I1(XLXN_45), 
+               .I2(XLXN_44), 
+               .I3(XLXN_39), 
+               .O(f));
+   OR4  XLXI_7 (.I0(XLXN_41), 
+               .I1(sw0), 
+               .I2(XLXN_44), 
+               .I3(XLXN_40), 
+               .O(g));
+   INV  XLXI_22 (.I(sw0), 
+                .O());
+   INV  XLXI_23 (.I(sw1), 
+                .O(XLXN_28));
+   INV  XLXI_24 (.I(sw2), 
+                .O(XLXN_30));
+   INV  XLXI_25 (.I(sw3), 
+                .O(XLXN_32));
+   AND2  XLXI_26 (.I0(sw3), 
+                 .I1(sw1), 
+                 .O(XLXN_34));
+   AND2  XLXI_27 (.I0(XLXN_32), 
+                 .I1(XLXN_28), 
+                 .O(XLXN_36));
+   AND2  XLXI_28 (.I0(sw3), 
+                 .I1(sw2), 
+                 .O(XLXN_37));
+   AND2  XLXI_29 (.I0(XLXN_32), 
+                 .I1(XLXN_30), 
+                 .O(XLXN_39));
+   AND2  XLXI_30 (.I0(XLXN_32), 
+                 .I1(sw2), 
+                 .O(XLXN_40));
+   AND2  XLXI_31 (.I0(sw2), 
+                 .I1(XLXN_28), 
+                 .O(XLXN_41));
+   AND2  XLXI_32 (.I0(XLXN_44), 
+                 .I1(sw3), 
+                 .O(XLXN_42));
+   AND2  XLXI_33 (.I0(XLXN_30), 
+                 .I1(sw1), 
+                 .O(XLXN_44));
+   AND2  XLXI_34 (.I0(XLXN_32), 
+                 .I1(sw1), 
+                 .O(XLXN_45));
+   INV  XLXI_35 (.I(enable0), 
+                .O(an0));
+   INV  XLXI_36 (.I(enable2), 
+                .O(an2));
+   INV  XLXI_37 (.I(enable1), 
+                .O(an1));
+   INV  XLXI_38 (.I(enable3), 
+                .O(an3));
+endmodule

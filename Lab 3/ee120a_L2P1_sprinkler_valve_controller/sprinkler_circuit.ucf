@@ -1,0 +1,15 @@
+# Pin assignment for LEDs
+NET "d0" LOC = "m5";
+NET "d1" LOC = "m11";
+NET "d2" LOC = "p7";
+NET "d3" LOC = "p6";
+NET "d4" LOC = "n5";
+NET "d5" LOC = "n4";
+NET "d6" LOC = "p4";
+NET "d7" LOC = "g1";
+
+# Pin assignment for SWs
+NET "enable" LOC = "n3";
+NET "a" LOC = "k3";
+NET "b" LOC = "l3";
+NET "c" LOC = "p11";

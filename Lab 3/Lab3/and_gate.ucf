@@ -1,0 +1,6 @@
+# Pin assignment for LEDs
+NET "d" LOC = "m5" ; # Bank = 2, Signal name = LD0
+
+# Pin assignment for SWs
+NET "i1" LOC = "l3"; # Bank = 3, Signal name = SW1
+NET "i2" LOC = "p11"; # Bank = 2, Signal name = SW0

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3Part3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="bcd_to_7led_bh.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="bcd_to_7led_bh.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="bcd_to_7led_bh.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="bcd_to_7led_bh.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="bcd_to_7led_bh.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="bcd_to_7led_bh.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="bcd_to_7led_bh.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="bcd_to_7led_bh.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="bcd_to_7led_bh.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="bcd_to_7led_bh.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="bcd_to_7led_bh.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bcd_to_7led_bh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="bcd_to_7led_bh.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="bcd_to_7led_bh.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="bcd_to_7led_bh.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="bcd_to_7led_bh.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="bcd_to_7led_bh.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="bcd_to_7led_bh.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="bcd_to_7led_bh.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bcd_to_7led_bh_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bcd_to_7led_bh_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bcd_to_7led_bh_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="bcd_to_7led_bh_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="bcd_to_7led_bh_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="bcd_to_7led_bh_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="bcd_to_7led_bh_sch.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="bcd_to_7led_bh_sch.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="bcd_to_7led_bh_sch.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="bcd_to_7led_bh_sch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="bcd_to_7led_bh_sch.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="bcd_to_7led_bh_sch.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="bcd_to_7led_bh_sch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh_sch.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="bcd_to_7led_bh_sch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="bcd_to_7led_bh_sch.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="bcd_to_7led_bh_sch.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="bcd_to_7led_bh_sch.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="bcd_to_7led_bh_sch.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="bcd_to_7led_bh_sch.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bcd_to_7led_bh_sch.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="bcd_to_7led_bh_sch.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="bcd_to_7led_bh_sch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="bcd_to_7led_bh_sch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="bcd_to_7led_bh_sch.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="bcd_to_7led_bh_sch.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="bcd_to_7led_bh_sch.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="bcd_to_7led_bh_sch.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="bcd_to_7led_bh_sch.vf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="bcd_to_7led_bh_sch.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="bcd_to_7led_bh_sch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bcd_to_7led_bh_sch_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh_sch_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bcd_to_7led_bh_sch_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="bcd_to_7led_bh_sch_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="bcd_to_7led_bh_sch_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="bcd_to_7led_bh_sch_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bcd_to_7led_bh_sch_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bcd_to_7led_bh_sch_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="bcd_to_7led_bh_sch_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="bcd_to_7led_bh_sch_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bcd_to_7led_bh_sch_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bcd_to_7led_bh_sch_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="bcd_to_7led_bh_sch_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="bcd_to_7led_bh_sch_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bcd_to_7led_bh_sch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bcd_to_7led_bh_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bcd_to_7led_bh_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1548732942" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1548732942">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733918" xil_pn:in_ck="-339214396351249816" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4434972666570767307" xil_pn:start_ts="1548733916">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1548732944" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6148765162621217279" xil_pn:start_ts="1548732944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548732944" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1548732944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548732944" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8771714437003136397" xil_pn:start_ts="1548732944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548732944" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1548732944">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1548732944" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8349711934022425481" xil_pn:start_ts="1548732944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733229" xil_pn:in_ck="4049244855673892649" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2751406962188857874" xil_pn:start_ts="1548733223">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.jhd"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.lso"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ngc"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ngr"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.prj"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.stx"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.syr"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.xst"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733231" xil_pn:in_ck="-791194334635880821" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6794181894905198434" xil_pn:start_ts="1548733231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733236" xil_pn:in_ck="-8252137355451569998" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="478005851704148162" xil_pn:start_ts="1548733231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.bld"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ngd"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733239" xil_pn:in_ck="9131608592062619060" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1548733236">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.pcf"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_map.map"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_map.mrp"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_map.ncd"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_map.ngm"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_map.xrpt"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_summary.xml"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733246" xil_pn:in_ck="-1533468607187494170" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1548733239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ncd"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.pad"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.par"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ptwx"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.unroutes"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.xpi"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_pad.csv"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_pad.txt"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733253" xil_pn:in_ck="-420875740100613279" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1548733247">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.bgn"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.bit"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.drc"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733261" xil_pn:in_ck="-3335538733143831947" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1548733259">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1548733246" xil_pn:in_ck="1873408660174063788" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1548733243">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.twr"/>
+      <outfile xil_pn:name="bcd_to_7led_bh_sch.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

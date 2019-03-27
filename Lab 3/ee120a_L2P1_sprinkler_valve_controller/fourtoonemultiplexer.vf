@@ -1,0 +1,77 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fourtoonemultiplexer.vf
+// /___/   /\     Timestamp : 01/14/2019 19:11:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Xilinx/Projects/ee120a_L2P1_sprinkler_valve_controller/fourtoonemultiplexer.vf -w C:/Xilinx/Projects/ee120a_L2P1_sprinkler_valve_controller/fourtoonemultiplexer.sch
+//Design Name: fourtoonemultiplexer
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module fourtoonemultiplexer(i0, 
+                            i1, 
+                            i2, 
+                            i3, 
+                            s0, 
+                            s1, 
+                            d);
+
+    input i0;
+    input i1;
+    input i2;
+    input i3;
+    input s0;
+    input s1;
+   output d;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   
+   AND3  XLXI_1 (.I0(XLXN_13), 
+                .I1(XLXN_12), 
+                .I2(i0), 
+                .O(XLXN_2));
+   AND3  XLXI_2 (.I0(s1), 
+                .I1(XLXN_14), 
+                .I2(i1), 
+                .O(XLXN_3));
+   AND3  XLXI_3 (.I0(XLXN_15), 
+                .I1(s0), 
+                .I2(i2), 
+                .O(XLXN_4));
+   AND3  XLXI_4 (.I0(s1), 
+                .I1(s0), 
+                .I2(i3), 
+                .O(XLXN_5));
+   OR4  XLXI_5 (.I0(XLXN_5), 
+               .I1(XLXN_4), 
+               .I2(XLXN_3), 
+               .I3(XLXN_2), 
+               .O(d));
+   INV  XLXI_6 (.I(s0), 
+               .O(XLXN_12));
+   INV  XLXI_7 (.I(s1), 
+               .O(XLXN_13));
+   INV  XLXI_8 (.I(s0), 
+               .O(XLXN_14));
+   INV  XLXI_11 (.I(s1), 
+                .O(XLXN_15));
+endmodule
